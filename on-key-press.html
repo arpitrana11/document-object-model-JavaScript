@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* margin: 40vh; */
+            /* margin: 0px;
+            padding: 0px; */
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            background-color: #7fb0e9;
+        }
+        #onclick{
+            margin-top: 200px;
+            display: grid;
+            align-items: center;
+            padding: 10px 40px 10px 40px;
+            border: 1px solid black;
+            background-color: aqua;
+            font-size: 25px;
+            font-weight: 300;
+            gap: 20px;
+        }
+        #mouseout{
+            display: grid;
+            
+            padding: 10px 40px 10px 40px;
+            border: 1px solid black;
+            background-color: rgb(224, 41, 87);
+            font-size: 25px;
+            font-weight: 300;
+        }
+        #onkeypress1{
+            display: flex;
+            gap: 20px;
+        }
+        #onkeypress1 label{
+            padding: 10px 40px 10px 40px;
+            border: 1px solid black;
+            background-color: rgb(224, 41, 87);
+            font-size: 25px;
+            font-weight: 300;
+        }
+        h1{
+            text-decoration: underline;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Different Types of Event</h1>
+    <div>
+        <p id="onclick">Onclick</p>
+    </div>
+    <div>
+        <p id="mouseout">MouseOut</p>
+    </div>
+    <div id="onkeypress1">
+        <label for="onkeyPress" id="onkeyPress2">Write here:</label>
+        <input type="text" id="onkeyPress" onkeypress="myfunction()">
+    </div>
+</body>
+<script src="./on-key-Press.js"></script>
+</html>
